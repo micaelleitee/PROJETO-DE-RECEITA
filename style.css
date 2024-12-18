@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  font-family: "Alice", serif;
+  line-height: 150%;
+  color: #573a37;
+}
+
+body {
+  background-image: url(assets/bg-image.jpg);
+  background-size: cover;
+}
+
+img {
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+#container {
+  box-sizing: border-box;
+  padding: 24px;
+  border-radius: 24px;
+  background-color: #f0e8c2;
+  width: 800px;
+  margin: 48px auto;
+}
+
+main {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 140%;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+  color: #291b1a;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+p {
+  margin-top: 4px;
+}
